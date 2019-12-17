@@ -10,3 +10,4 @@ public class AdminClientApplication {
 		SpringApplication.run(AdminClientApplication.class, args);
 	}
 }
+

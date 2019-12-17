@@ -1,0 +1,17 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+server:
+    port: 58001
+spring:
+    application:
+        name: Admin Client
+    boot:
+        admin:
+            client:
+                url: 'http://172.20.6.23:8000'
+                instance:
+                    prefer-ip: true
+
